@@ -39,3 +39,13 @@ a {
   font-weight: 700;
   font-family: var(--font-mono);
 }
+
+.text-smaller
+{
+  font-size: smaller;
+}
+
+.text-x-smaller
+{
+  font-size: x-small;
+}
