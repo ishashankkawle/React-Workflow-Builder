@@ -1,6 +1,17 @@
+'use client';
+
 import Image from 'next/image'
 import styles from './page.module.css'
 import { Info, Loader, Lock, User } from 'react-feather'
+import { useRouter } from 'next/router';
+
+
+let handleClick = (e) => 
+{
+  console.log("rediecting..")
+  const { rouer } = useRouter();
+  rouer.replace('/workflow')
+}
 
 export default function Home() {
   return (
@@ -22,7 +33,7 @@ export default function Home() {
                 <span className="input-group-text" id="addon-wrapping"><Lock size={18}/></span>
                 <input type="password" className="form-control" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping"/>
               </div>
-              <button type="button" className="btn btn-outline-primary mb-3">Log In</button>
+              <button type="button" className="btn btn-outline-primary mb-3" onClick={handleClick}>Log In</button>
 
               <p className='text-x-smaller'><Info color='orange' size={13} /> &nbsp; If you dont have an account, please contact Adminitstrator.</p>
             </div>
