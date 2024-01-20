@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import { Info, Loader, Lock, User } from 'react-feather'
 import { useRouter } from 'next/navigation';
-import res from './resources';
+import { useState } from 'react';
 
 
 
@@ -12,8 +12,9 @@ export default function Home() {
 
   const rouer  = useRouter();
 
-  let handleClick = (e) => {
-    res["isAuthenticated"] = true;
+  let handleClick = async (e) => 
+  {
+    let resp = await fetch("/api/auth");
     rouer.push('/workspace')
   }
 
