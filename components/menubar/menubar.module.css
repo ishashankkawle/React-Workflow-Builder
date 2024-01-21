@@ -1,17 +1,27 @@
-.navbox
-{
+.navbox {
    width: 100%;
    font-size: smaller;
    padding: 12px;
    background: var(--light-bg-primary);
 }
-.navbox:hover
-{
+
+.navbox:hover {
    background: var(--bs-secondary);
    color: var(--light-bg-primary)
 }
-.lwbMenubar
-{
+
+.lwbMenubar {
    background: var(--light-bg-primary);
    width: 15%;
+}
+
+.lwbPopup {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -50px;
+   margin-left: -50px;
+   width: 100px;
+   height: 100px;
+   background-color: aqua;
 }
