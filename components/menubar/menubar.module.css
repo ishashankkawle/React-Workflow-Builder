@@ -1,0 +1,17 @@
+.navbox
+{
+   width: 100%;
+   font-size: smaller;
+   padding: 12px;
+   background: var(--light-bg-primary);
+}
+.navbox:hover
+{
+   background: var(--bs-secondary);
+   color: var(--light-bg-primary)
+}
+.lwbMenubar
+{
+   background: var(--light-bg-primary);
+   width: 15%;
+}

@@ -1,0 +1,16 @@
+.lwbBrand {
+    width: 15%;
+    color: var(--light-highlight-primary);
+}
+
+.lwbAvatar {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    padding: 1%;
+    background-color: var(--light-highlight-primary);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}

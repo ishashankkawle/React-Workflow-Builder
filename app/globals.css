@@ -5,10 +5,13 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --light-text-primary: "#222831"
-  --light-text-secondary: "#393E46"
-  --light-text-highight: "#00ADB5"
-  --light-bg-primary: "#EEEEEE"
+  --light-text-primary: #222831;
+  --light-text-secondary: #393E46;
+  --light-text-highight: 00ADB5;
+  --light-bg-primary: #F8F4EC;
+  --light-highlight-primary: #D63484;
+  --light-highlight-secondary: #FF9BD2;
+  --dark-bg-primary: #402B3A;
 }
 
 
@@ -27,7 +30,7 @@ body {
 
 body {
   color: var(--light-text-primary);
-  background-color: var(--light-bg-primary);
+  overflow-y: hidden;
 }
 
 a {
