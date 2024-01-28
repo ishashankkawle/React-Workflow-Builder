@@ -30,7 +30,7 @@ export default function Board({data , nodeTypes})
           fitView 
           nodeTypes={nodeTypes}>
 
-            <Background />
+            <Background variant='lines'/>
             <Controls style={{position: 'relative', width: '2%'}}/>
         </ReactFlow>
       </div>

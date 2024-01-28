@@ -1,6 +1,6 @@
 .lwbStateNode {
     height: auto;
-    border: 1px solid #eee;
+    border: 1px solid #d5d5d5;
     padding: 6%;
     border-radius: 15px;
     background: white;
@@ -11,7 +11,7 @@
 .lwbStateNodeDivider
 {
   width: 112%;
-  border-top: 0.5px solid #eee;
+  border-top: 0.5px solid #d5d5d5;
   margin-top: 5%;
   margin-bottom: 5%;
   position: relative;
